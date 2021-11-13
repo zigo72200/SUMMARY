@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Адаптив */
 :root {
   --color-text-phone: #ffffff;
@@ -14,38 +13,33 @@
     background-color: var(--back-color-sacond);
     color: var(--color-text-decstop);
     width: 1200px;
-    -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-            box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     margin-left: auto;
     margin-right: auto;
   }
+
   .title {
     color: var(--color-title);
   }
+
   .container {
     width: 600px;
     padding-left: 80px;
   }
+
   .name {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
   }
+
   .me {
     font-size: 45px;
     line-height: 1.22;
     margin-bottom: 60px;
   }
+
   .photo {
     display: block;
     padding-top: 60px;
@@ -58,16 +52,16 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .skills .title {
     color: var(--color-text-phone);
   }
+
   .flex-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
+
   .title-smol {
     color: var(--color-title-smol);
   }
 }
-/*# sourceMappingURL=style.css.map */
