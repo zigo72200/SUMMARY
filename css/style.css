@@ -1,14 +1,89 @@
 @charset "UTF-8";
-/* Адаптив */
 :root {
   --color-text-phone: #ffffff;
-  --color-title: #000;
-  --color-title-smol: #212121;
+  --color-taitle: #212121;
   --color-text-decstop: #595959;
   --back-color: #1e2939;
   --back-color-sacond: #ffffff;
+  --color-title: #000;
+  --color-title-smol: #212121;
 }
 
+body {
+  color: var(--color-text-phone);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: var(--back-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+}
+
+li:last-child {
+  margin-bottom: 10px;
+}
+
+.contact a,
+.project {
+  text-decoration: none;
+  list-style: none;
+  color: var(--color-text);
+}
+
+.contact a:hover,
+.project:hover {
+  color: blueviolet;
+}
+
+.container {
+  width: 450px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 60px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.title-smol {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.me {
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.me h1 {
+  margin-bottom: 10px;
+}
+
+/* Адаптив */
 @media screen and (min-width: 600px) {
   body {
     background-color: var(--back-color-sacond);
@@ -48,7 +123,7 @@
   }
   .photo {
     display: block;
-    padding-top: 60px;
+    padding-top: 90px;
   }
   .sidebar {
     background-color: var(--back-color);
