@@ -42,15 +42,21 @@ li:last-child {
 }
 
 .contact a,
-.project {
+.project,
+.course {
   text-decoration: none;
   list-style: none;
   color: var(--color-text);
 }
 
 .contact a:hover,
-.project:hover {
+.project:hover,
+.course:hover {
   color: blueviolet;
+}
+
+.course {
+  text-decoration: underline;
 }
 
 .container {

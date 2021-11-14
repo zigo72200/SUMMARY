@@ -41,13 +41,18 @@ li:last-child {
 }
 
 .contact a,
-.project {
+.project,
+.course {
   text-decoration: none;
   list-style: none;
   color: var(--color-text);
   &:hover {
     color: blueviolet;
   }
+}
+
+.course {
+  text-decoration: underline;
 }
 
 .container {
